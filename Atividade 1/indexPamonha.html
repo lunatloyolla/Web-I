@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita de Pamonha</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <section class="Section1">
+        <div class="FlexPamonha">
+            <div class="ImgPamonha">
+                <img src="assets/pamonha.png" alt="" width="200" class="Pamonha">
+            </div>
+            <div class="DescricaoPamonha">
+                <h2>Pamonha</h2>
+                <p>Prato típico com milho verde ralado</p>
+
+                <div class="FlexBotao">
+
+                    <div>
+                        <p>Porções:</p>
+                    </div>
+                    
+                    <div class="Menos">
+                        <button onclick="subtrair()" class="BotaoMenos">
+                            <img src="assets/menos.png" alt="" width="20">
+                        </button>
+                    </div>
+
+                        <p class="n"><span id="n">0</span></p>
+        
+                    <div class="Mais">
+                        <button onclick="somar()" class="BotaoMais">
+                            <img src="assets/mais.png" alt="" width="20">
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="Section2">
+        <div class="FlexReceita">
+            <div>
+                <div>
+                    <div class="FlexIngredientes">
+                        <div class="ImgIngredientes">
+                            <img src="assets/Ingredientes.png" alt="" width="20">
+                        </div>
+                        <div>
+                            <h1>Ingredientes</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="DivItensIngredientes">
+                    <ul>
+                        <li>1 espiga de milho verde</li>
+                        <li>1 colher de sopa de açúcar</li>
+                        <li>1 colher de sopa de manteiga</li>
+                        <li> Sal a gosto</li>
+                        <li>Palha de milho (para embrulhar)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <div class="FlexModoPreparo">
+                        <div class="ImgModoPreparo">
+                            <img src="assets/MododePreparo.png" alt="" width="21">
+                        </div>
+                        <div>
+                            <h1>Modo de preparo</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="DivItensModoPreparo" >
+                    <ol>
+                        <li>Descasque a espiga de milho e corte os grãos</li>
+                        <li>Bata o milho, açúcar, manteiga e sal no liquidificador</li>
+                        <li>Coloque a massa nas palhas de milho e feche bem</li>
+                        <li>Cozinhe em água fervente por cerca de 40 minutos</li>
+                        <li>Deixe esfriar e sirva</li>
+                    </ol>
+                </div>
+            </div>
+            
+
+        </div>
+           
+    </section>
+</body>
+
+</html>

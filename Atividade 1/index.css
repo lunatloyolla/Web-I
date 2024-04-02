@@ -1,0 +1,68 @@
+.FlexPamonha{
+    display: flex;
+    margin-left: 35%;
+}
+.FlexReceita{
+    display: flex;
+    margin-left: 35%;
+}
+
+.Section1{
+    background-color: antiquewhite;
+}
+.Section2{
+    background-color: #9B6647
+}
+.FlexIngredientes{
+    display: flex;
+}
+
+.ImgIngredientes{
+    align-self: center ;
+    padding: 5%;
+}
+
+.FlexModoPreparo{
+    display: flex;
+}
+
+.ImgModoPreparo{
+    align-self: center ;
+    padding: 5%;
+}
+h1{
+    color: aliceblue;
+}
+
+ol{
+    color: aliceblue;
+}
+
+ul{
+    color: aliceblue;
+}
+
+.FlexBotao{
+    display: flex;
+}
+.n{
+    padding: 2%;
+}
+
+.Mais{
+    padding-top: 7%;
+}
+
+.Menos{
+    padding-top: 7%;
+}
+
+.BotaoMais{
+    border: none;
+    background-color: antiquewhite;
+}
+
+.BotaoMenos{
+    border: none;
+    background-color: antiquewhite;
+}
