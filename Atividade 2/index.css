@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(217, 205, 247, 1);
+    height: 100vh;
+}
+
+.FlexDiv{
+    display: flex;
+    border: 1px solid black;
+    align-content: center;
+}
+
+.DivSofá{
+     border: 1px solid black;
+}
+
+.DivTexto{
+    border: 1px solid black;
+}
+
+.BotaoADD{
+    background-color: rgba(217, 205, 247, 1);
+    border-radius: 999px;
+}

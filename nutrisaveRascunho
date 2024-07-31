@@ -1,0 +1,63 @@
+<div class="FlexDiv">
+
+        <div class="FlexDiv">
+            <div class="FlexDivBarra">
+                <div id="BarraDePesquisa">
+                   <textarea id="textarea">Pesquise um alimento...</textarea>
+                </div>
+                
+            
+                <div>
+                    <button onclick="Pesquisar()" id="BotaoLupa">
+                        <img src="assets/image 1.svg" alt="" width="30">
+                    </button>
+                </div>
+            </div>
+
+            <div id="imgLogo">
+                <img src="assets/folha 1.svg" alt="" width="170">
+            </div>
+        </div>
+    </div>
+
+    <div class="FlexDiv2">
+        <div id="PrincipaisInformacoes">
+            <div class="FlexDiv">
+                <h1>Principais Informacoes</h1>
+                <img src="assets/image 19.svg" alt="" width="30" id="img19">
+            </div>
+
+
+            <div class="FlexDiv">
+                <div class="FlexInfo1">
+                    <div id="Info1">
+                        <h1 class="h1Info">Confira: Os piores alimentos do mundo1</h1>
+                        <a href="https://medsulsaude.com.br/quais-sao-os-piores-alimentos-para-a-saude/"> ler mais</a>
+                    </div>
+    
+                    <div id="Info2">
+                        <h1 class="h1Info">Confira: Os piores alimentos do mundo2</h1>
+                        <a href="https://medsulsaude.com.br/quais-sao-os-piores-alimentos-para-a-saude/"> ler mais</a>
+                    </div>
+                </div>
+    
+                <div class="FlexInfo2">
+                    <div id="Info3">
+                        <h1 class="h1Info">Confira: Os piores alimentos do mundo3</h1>
+                        <a href="https://medsulsaude.com.br/quais-sao-os-piores-alimentos-para-a-saude/"> ler mais</a>
+                    </div>
+    
+                    <div id="Info4">
+                        <h1 class="h1Info">Confira: Os piores alimentos do mundo4</h1>
+                        <a href="https://medsulsaude.com.br/quais-sao-os-piores-alimentos-para-a-saude/"> ler mais</a>
+                    </div>
+                </div>
+            </div>
+    
+            </div>
+
+        <div id="AlimentosMaisPesquisados">
+
+        </div>
+
+    </div>
