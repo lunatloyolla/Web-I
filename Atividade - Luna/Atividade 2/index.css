@@ -1,0 +1,22 @@
+
+body{
+    background-color: rgba(217, 205, 247, 1);
+}
+
+.FlexDiv{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BotaoADD{
+    background-color: rgba(217, 205, 247, 1);
+    border-radius: 999px;
+}
+
+#BotaoImagem{
+    background-color: rgba(217, 205, 247, 1);
+    border: none;
+}
