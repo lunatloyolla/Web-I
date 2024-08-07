@@ -1,0 +1,59 @@
+body{
+    background-color: whitesmoke;
+}
+
+#ImagemDiv{
+    width: 50vw;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#info{
+    margin-left: 100px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+}
+
+.Textbox{
+    border: 2px solid rgba(226, 232, 240, 1);
+    color: rgba(148, 163, 184, 1);
+    background-color: white;
+    font-size: smaller;
+    height: 53px;
+    width: 450px;
+    border-radius: 0.2em;
+}
+
+#entrar{
+    margin-top: 30px;
+    border: 1px solid  rgba(124, 58, 237, 1);
+    border-radius: 0.2em;
+    background-color: rgba(124, 58, 237, 1);
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    height: 53px;
+    width: 450px;
+}
+
+.textRoxo{
+    color:rgba(124, 58, 237, 1);
+    font-weight: bold
+}
+
+.textCinza{
+    color:rgba(71, 85, 105, 1);
+}

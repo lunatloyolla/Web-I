@@ -1,0 +1,56 @@
+
+.container{
+    border: 5px solid gray;
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#imagem{
+    width: 28.9em;
+    height: 15em; 
+}
+
+#info{
+    width: 30vw;
+    height: 60vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3{
+    display: flex;
+}
+
+.Textbox{
+    border: 1px solid rgba(226, 232, 240, 1);
+    color: rgba(148, 163, 184, 1);
+    font-size: smaller;
+}
+
+#entrar{
+    border: 1px solid  rgba(124, 58, 237, 1);
+    background-color: rgba(124, 58, 237, 1);
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.textRoxo{
+    color:rgba(124, 58, 237, 1);
+    font-weight: bold
+}
+
+.textCinza{
+    color:rgba(71, 85, 105, 1);
+}
