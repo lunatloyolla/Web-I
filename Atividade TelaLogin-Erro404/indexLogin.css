@@ -1,0 +1,98 @@
+.Container1{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TextArea{
+    border: 2px solid rgba(226, 232, 240, 1);
+    width: 30vw;
+    border-radius: 0.4rem;
+}
+
+.ContainerText{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.4rem;
+}
+
+#Entrar{
+    margin-top: 10%;
+    border: 2px solid rgba(124, 58, 237, 1);
+    width: 30vw;
+    background-color: rgba(124, 58, 237, 1);
+    border-radius: 0.4rem;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.Cinza{
+    color: rgba(148, 163, 184, 1);
+}
+
+.Roxo{
+    color:rgba(124, 58, 237, 1);
+    font-weight: bold;
+}
+
+.Container5{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    .Container1{
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #info{
+        max-width: 10%;
+    }
+
+    #Imagem{
+        margin-right: 70%;
+        max-width: 10%;
+    }
+
+    .TextArea{
+        border: 2px solid rgba(226, 232, 240, 1);
+        width: 30vw;
+        border-radius: 0.4rem;
+    }
+    
+    .ContainerText{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0.4rem;
+    }
+    
+    #Entrar{
+        margin-top: 10%;
+        border: 2px solid rgba(124, 58, 237, 1);
+        width: 30vw;
+        background-color: rgba(124, 58, 237, 1);
+        border-radius: 0.4rem;
+        color: white;
+        justify-content: center;
+        text-align: center;
+    }
+
+}

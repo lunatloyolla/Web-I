@@ -3,6 +3,10 @@
     color: rgb(156, 14, 161);
 }
 
-.Atividade1{
+.Atividade{
     display: flex;
+}
+
+h1{
+    text-align: center;
 }
