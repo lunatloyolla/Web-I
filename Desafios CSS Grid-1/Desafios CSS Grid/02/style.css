@@ -1,9 +1,14 @@
 .services-listing {
 	font-style: italic;
 	display: grid;
-	grid: 150px / auto auto auto;
 	justify-content: right;
+	grid-template-columns: 200px 200px;
+	grid-gap: 100px;
+
 }
+.service{
+	max-width: fit-content;
+} 
 
 .service {
 	background-color: #e3fae9;
