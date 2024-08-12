@@ -1,0 +1,22 @@
+.card-listing {
+	padding: .5rem;
+	display: grid;
+	grid: 300px / auto auto auto;
+}
+
+.card {
+	background-color: #eae1fc;
+	font-family: Verdana, Helvetica, sans-serif;
+	padding: 1rem;
+	
+}
+
+.card h3 {
+	color: #ba0722;
+	margin: 0;
+}
+
+.card p {
+	margin: 0;
+}
+

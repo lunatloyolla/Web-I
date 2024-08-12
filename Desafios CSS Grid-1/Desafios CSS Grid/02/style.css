@@ -1,0 +1,15 @@
+.services-listing {
+	font-style: italic;
+	display: grid;
+	grid: 150px / auto auto auto;
+	justify-content: right;
+}
+
+.service {
+	background-color: #e3fae9;
+	padding: .5rem;
+}
+
+.service p {
+	margin: 0;
+}
