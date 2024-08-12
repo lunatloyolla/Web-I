@@ -3,10 +3,11 @@
     color: rgb(156, 14, 161);
 }
 
-.Atividade{
+.Atividade, .Desafios{
     display: flex;
 }
 
 h1{
     text-align: center;
 }
+
