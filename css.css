@@ -1,0 +1,32 @@
+body{
+    width: 99vw;
+    height: 90vh;
+    background-color:#eae3d1;
+    text-align: center;
+}
+
+.ContainerGrid{
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr, 6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.card{ 
+    border-radius: 20px;
+    background-color: #b18272;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    height: 70%;
+    width: 60%;
+}
